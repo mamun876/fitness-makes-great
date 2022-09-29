@@ -1,0 +1,19 @@
+.details {
+    width: 300px;
+    height: 520px;
+    border: 1px solid red;
+    border-radius: 5px;
+}
+
+.details img {
+    width: 286px;
+    height: 286px;
+    border-radius: 5px;
+    margin: 5px;
+}
+
+.details-text {
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}

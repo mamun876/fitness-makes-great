@@ -1,0 +1,17 @@
+.header {
+    display: flex;
+
+    align-items: center;
+    background-color: rgb(253, 246, 246);
+}
+
+.header img {
+    height: 60px;
+    width: 60px;
+}
+
+.header h5 {
+    font-size: 40px;
+    margin-left: 5px;
+    color: red;
+}
