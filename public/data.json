@@ -5,7 +5,7 @@
         "age": 29,
         "title": "Chin Up",
         "paragraph": "The primary muscles involved in the chin-up are the biceps brachii, brachialis, brachioradialis,",
-        "time": "30s",
+        "time": "30s"
     },
     {
         "id": "63352cefee2d6c72ffb78c78",
@@ -13,7 +13,7 @@
         "age": 34,
         "title": "BarBell",
         "paragraph": "A barbell is a piece of exercise equipment used in weight training, bodybuilding, weightlifting",
-        "time": "20s",
+        "time": "20s"
     },
     {
         "id": "63352cefdda6a52f6f1d6734",
@@ -21,7 +21,7 @@
         "age": 28,
         "title": "Tread Mill",
         "paragraph": "On average, treadmills use about 600 to 700 watts of electricity. A treadmill costs an average of $1.20 to use for a",
-        "time": "40s",
+        "time": "40s"
     },
     {
         "id": "63352cef6280812360546591",
@@ -29,7 +29,7 @@
         "age": 21,
         "title": "Dumbbell",
         "paragraph": "The Oxford English Dictionary describes apparatus similar to that used to ring a church bell, but without the bell ",
-        "time": "40s",
+        "time": "40s"
     },
     {
         "id": "63352cefb8e8a130107a003f",
@@ -46,6 +46,6 @@
         "age": 29,
         "title": "Rowing Trainer",
         "paragraph": "The main reason short workouts on a rowing machine are effective is that rowing is a full-body workout",
-        "time": "30s",
+        "time": "30s"
     }
 ]

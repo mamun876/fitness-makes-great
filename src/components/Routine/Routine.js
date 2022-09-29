@@ -24,7 +24,7 @@ const Routine = (props) => {
                     <h3>6.5 <br /> <small>Height</small> </h3>
                 </div>
                 <div className='item'>
-                    <h3>25 <small>Yrs <br />  Age</small></h3>
+                    <h3>25 <small>yrs <br />  Age</small></h3>
                 </div>
             </div>
             {/* break info button */}
