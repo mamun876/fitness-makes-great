@@ -2,6 +2,7 @@ import React from 'react';
 import './Details.css'
 
 const Details = (props) => {
+    const { handleAddToList, info } = props;
     const { title, picture, paragraph, age, time } = (props.info)
     return (
         <div className='details'>
@@ -11,7 +12,7 @@ const Details = (props) => {
                 <p>{paragraph}</p>
                 <h5>For Age: {age}</h5>
                 <h5>Time Required: {time}</h5>
-                <button className='btn-addToList'>
+                <button onClick={() => handleAddToList(info)} className='btn-addToList'>
                     <p>Add to List</p>
                 </button>
             </div>

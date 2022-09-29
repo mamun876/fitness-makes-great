@@ -1,6 +1,6 @@
 .details {
     background-color: white;
-    width: 300px;
+    width: 350px;
     height: auto;
     border: 1px solid red;
     border-radius: 5px;
@@ -8,7 +8,7 @@
 }
 
 .details img {
-    width: 286px;
+    width: 335px;
     height: 286px;
     border-radius: 5px;
     margin: 5px;

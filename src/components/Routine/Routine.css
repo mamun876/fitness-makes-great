@@ -1,4 +1,9 @@
-/* .title {
+.routine {
+    position: sticky;
+    top: 0;
+}
+
+.title {
     font-size: 30px;
     padding: 20px 0px;
     margin-left: -450px;
@@ -105,4 +110,4 @@
         grid-template-columns: repeat(1, 1fr);
     }
 
-} */
+}
