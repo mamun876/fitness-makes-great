@@ -1,12 +1,13 @@
-import React from 'react';
+
 import './Routine.css'
 
 const Routine = (props) => {
     const { time } = props;
     console.log(time)
     const buttonValue = () => {
-        const valueContainer = document.getElementsByClassName('btn-break')
-        parseInt(valueContainer)
+        const valuestring = document.getElementsByClassName('btn-break')
+        parseInt(valuestring)
+
     }
     return (
         <div className='routine'>
