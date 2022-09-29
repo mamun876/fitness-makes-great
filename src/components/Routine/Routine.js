@@ -4,6 +4,10 @@ import './Routine.css'
 const Routine = (props) => {
     const { time } = props;
     console.log(time)
+    const buttonValue = () => {
+        const valueContainer = document.getElementsByClassName('btn-break')
+        parseInt(valueContainer)
+    }
     return (
         <div className='routine'>
             <div className='name-container'>
@@ -25,7 +29,7 @@ const Routine = (props) => {
             {/* break info button */}
             <div>
                 <h2>Add a Break</h2>
-                <div className='btn-break-container'>
+                <div onClick={buttonValue} className='btn-break-container'>
                     <button className='btn-break'>
                         <p>10s</p>
                     </button>
