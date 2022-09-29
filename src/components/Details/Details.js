@@ -9,9 +9,13 @@ const Details = (props) => {
             <div className='details-text'>
                 <h2>{title}</h2>
                 <p>{paragraph}</p>
-                <p><small>For Age:{age}</small></p>
-                <p><small>Time Required:{time}</small></p>
+                <h5>For Age: {age}</h5>
+                <h5>Time Required: {time}</h5>
+                <button className='btn-addToList'>
+                    <p>Add to List</p>
+                </button>
             </div>
+
         </div>
     );
 };

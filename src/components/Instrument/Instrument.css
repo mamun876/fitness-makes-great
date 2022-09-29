@@ -1,3 +1,7 @@
+.routine-container {
+    background-color: white;
+}
+
 .instrument-container {
     display: grid;
     grid-template-columns: 4fr 1fr;
@@ -7,4 +11,72 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 15px;
+}
+
+.name-container {
+    background-color: rgb(253, 246, 246);
+    border-radius: 10px;
+    /* padding: 5px; */
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-bottom: 40px;
+    padding: 15px;
+}
+
+.individual-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(253, 246, 246);
+    border-radius: 10px;
+    margin: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+
+}
+
+.btn-break {
+    display: flex;
+    border-radius: 50%;
+    background-color: white;
+
+
+}
+
+.btn-break-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(253, 246, 246);
+    margin: 15px;
+    padding: 15px;
+    border-radius: 10px;
+
+}
+
+.excercise-details {
+    background-color: rgb(253, 246, 246);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 10px;
+}
+
+.time {
+    color: rgb(71, 70, 69);
+}
+
+.btn-activity {
+    background-color: red;
+    border: 0;
+    margin-top: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 10px;
+    color: white;
+    font-size: 20px;
+
 }
