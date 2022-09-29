@@ -1,3 +1,4 @@
+/* routine css writing properties start */
 .routine {
     position: sticky;
     top: 0;
@@ -50,6 +51,8 @@
     padding-right: 15px;
 
 }
+
+/* button break started */
 
 .btn-break {
     display: flex;
